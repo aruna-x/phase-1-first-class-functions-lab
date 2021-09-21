@@ -15,3 +15,12 @@ function createFareMultiplier(int) {
     }
 }
 
+const fareDoubler = createFareMultiplier(2);
+
+const fareTripler = createFareMultiplier(3);
+
+
+function selectDifferentDrivers (drivers, driversChoice){
+    
+    return driversChoice(drivers)
+}
